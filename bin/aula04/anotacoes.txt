@@ -1,0 +1,37 @@
+===
+    LAYOUT BANK
+
+
+conta_corrente -> OBJETO
+
+
+Class conta;
+
+   + int numero_conta;
+   # String tipo;
+   - String Dono;
+   - Float Saldo;
+   - Boolean Status;
+
+/// FUNCOES{metodos} {+++++}
+AbrirConta();
+    status = true
+FecharConta();
+    sem saldo e sem pendencias
+
+Depositar();
+Sacar();
+    status = true
+    $ > 0;
+    $ o max do saldo;
+
+
+PagarMenalisade();
+    CC ->  -12$
+    CP -> -20$
+
+CC -> conta_corrente;
+    +50$
+CP -> Conta_poupança;
+    +150$
+
