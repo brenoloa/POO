@@ -1,0 +1,60 @@
+## ENCAPUSULAMENTO ##
+
+    oocultar partes independentes da implementação permitindo construir partes invisiveis pro mundo exterior.
+
+    {pilha} / você compra pelo formato e não por saber a funcionalidade.
+    logo como ela funciona por dentro não importa, você só está interessado no tamanho da capsula e na voltagem.
+
+|| [##]  [##]  ##  ##  [##]  [##]  [##]  ##  ##  [##] [##] || 
+
+É possivel definir o ENCAPUSULAMENTO com uma interface bem definida.
+
+Interface:
+    uma lista de serviços fornecidos por um componente.
+    Contato do mundo exterior com as funcionalidades internas.
+
+    não possui atributos, somente metodos(FUNCOES) 
+
+
+## VANTAGENS EM ENCAPUSULAR ##
+    .tornar mudanças invisiveis.
+    .facilitar a REutilização do código.
+    .redução de efeitos colaterais.
+    
+    
+## example
+    
+    CONTROLE REMOTO
+    interface CONTROLADOR: 
+        +ligar()
+        +desligar()
+        +abrirMenu()
+        +fecharMenu()
+        +maisVolume()
+        +menosVolume()
+        +ligarMudo()
+        +desligarMudo()
+        +play()
+        +pause()
+
+    Class ControleRemoto
+        -volume
+        -ligado
+        -tocando
+        _________
+        
+        {set|get}
+        -volume
+        -ligado
+        -tocando
+        _________
+        +ligar()
+        +desligar()
+        +abrirMenu()
+        +fecharMenu()
+        +maisVolume()
+        +menosVolume()
+        +ligarMudo()
+        +desligarMudo()
+        +play()
+        +pause()
