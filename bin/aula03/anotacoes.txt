@@ -1,0 +1,6 @@
+==================================================================
+getters {get}  = pegar
+setters {set} = setar, colocar ;/
+
+utilizar funcoes set e get para que o usuario possa modificar variaveis privadas
+sem ter acesso a elas.

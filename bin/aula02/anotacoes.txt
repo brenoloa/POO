@@ -1,0 +1,47 @@
+MODIFICADORES DE VISIBILIDADE
+
+indicam o nivel de acesso aos componentes internos de uma classe.
+
+
++ PUBLIC
+    todas as classes podem usar
+
+-  PRIVATE
+    somente a classe atual
+
+# - PROTEGIDO
+    classe atual + sub-classes
+
+====== Class Telefone 
+
++ Orelhão
+
+- Celular
+
+# Telefone Residencial { familiares }
+
+=============
+public String modelo;
+private String tubo_cor;
+
+Caneta c1 = new Caneta(); 
+c1.modelo = "dfsfds" // pode pois é publico.
+c1.tubo_cor = "azul" // não pode pois é privado.
+
+====
+se na classe caneta eu defino
+
+private Boolean Tampada;
+
+eu não posso alterar ela no maincode usando caneta.tampada = true;
+
+porém na propia classe eu posso criar um metodo para tampar e destampar e caso ele esteja publico, ele consegue modificar a variavel privada por estar dentro da mesma classe. exemplo:
+
+public void tampar(){
+    this.tampada = true;
+}
+ou seja eu posso chamar
+caneta.tampar();
+e assim a variavel privada é modificada.
+
+
