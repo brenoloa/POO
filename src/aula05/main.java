@@ -5,10 +5,10 @@ public class main {
         ControleRemoto c1 = new ControleRemoto();
 
         
-        c1.desligar();
+        c1.ligar();
         c1.maisVolume();
-       
-        c1.desligarMudo();
+        c1.ligarMudo();
+        
         c1.abrirMenu();
         
         
