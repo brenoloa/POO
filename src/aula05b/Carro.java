@@ -1,7 +1,7 @@
 package aula05b;
 
 public class Carro implements Motorista{
-    public String marca;
+    private String marca;
     private String placa;
     private boolean ligado;
     private float gasolina;
@@ -68,8 +68,13 @@ public class Carro implements Motorista{
     }
     @Override
     public void abastecer(float gasolina) {
-        setGasolina(getGasolina() + gasolina);
-    
+        if (getLigado() == false){
+            System.out.println("Abasteceu " + gasolina + " Litros com sucesso!");
+            setGasolina(getGasolina() + gasolina);
+        }
+        else {
+            System.out.println("Desligue o veiculo para abastecer.");
+        }
     }
 
     public void status(){
