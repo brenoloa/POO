@@ -2,3 +2,4 @@
  
 encapsulamento de interface upgrade.
 
+introduzindo ao relacionamento entre classes
