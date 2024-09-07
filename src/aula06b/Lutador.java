@@ -1,4 +1,4 @@
-package aula06;
+package aula06b;
 
 public class Lutador {
     private String nome;
@@ -126,5 +126,8 @@ public class Lutador {
 
     public void empatar_luta(){
         this.setEmpates(this.getEmpates() + 1);
+    }
+    public String toString() {
+        return this.getNome();
     }
 }

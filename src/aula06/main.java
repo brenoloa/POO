@@ -12,8 +12,12 @@ public class main {
     L[5] = new Lutador("Nerdaard", "EUA", 30, 1.81f, 105.7f, 12, 2, 4);
     
     for (int i = 0; i < 6; i++) {
+        L[i].apresentar();
         L[i].status();
         
     }
-}
+
+    L[2].ganhar_luta();
+
+    }
 }
