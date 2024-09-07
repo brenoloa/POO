@@ -1,0 +1,30 @@
+Class pessoa
+    -nome
+    -idade
+    -sexo
+    =====
+    +fazer_aniver();
+
+|
+|
+v
+
+Class Livro
+    -titulo
+    -autor
+    -totPaginas
+    -pagAtual
+    -aberto
+    -leitor
+    ======
+    +detalhes();
+
+
+   //. . . . .\\
+
+Interface Publicacao
+    +abrir();
+    +fechar();
+    +folhear();
+    +avançarPAG();
+    +voltarPAG();
