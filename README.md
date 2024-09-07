@@ -2,4 +2,4 @@
  
 encapsulamento de interface upgrade.
 
-relacionamento entre classes diferentes upgrade.
+relacionamento entre classes diferentes upgrade2.0
