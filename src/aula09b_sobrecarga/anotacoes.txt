@@ -1,0 +1,16 @@
+Em sobreposição
+@override
+
+eu utilizo o mesmo metodo do antecessor da classe porem posso modificala, 
+e quando executado essa classe tem a sobreposição definida
+exemplo
+
+Classe mamifero
+    emitirSom()
+        prinf(som mamifero)
+
+    Class cachorro extends mamifero(herdeiro de mamifero)
+    @override
+    emitirSom()
+        print("AU AU AU UAUA)
+=============================

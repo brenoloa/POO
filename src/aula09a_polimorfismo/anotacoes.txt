@@ -1,0 +1,27 @@
+##  POLIMORFISMO
+
+
+Poli:
+    muitas
+Morfo:
+    formas
+
+
+POLIMORFISMO
+    (permite que um mesmo nome represente varios comportamentos diferentes, ou varias formas ;)
+
+
+
+ASSINATURA DE MÉTODO
+    Quantidade e tipos de parametros.
+
+    public metodo calcularmedia(int x, inty)
+        x + y / 2;
+    
+    public funcao( < PARAMETROS > )
+
+
+POLIMORFISMO DE SOBREPOSIÇÃO
+    @Override
+
+POLIMORFISMO DE SOBRECARGA[]
