@@ -15,7 +15,7 @@ public class Bolsista extends Aluno {
     }
     @Override
     public void pagar_mensalidade(){
-        System.out.println("Mensalidade de " + this.getNome() + " GRATUITO!");
+        System.out.println("Bolsa de 100% Mensalidade de: " + this.getNome() + " GRATUITO!");
     }
 
 }
