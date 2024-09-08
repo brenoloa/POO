@@ -1,0 +1,35 @@
+## HERANÇA pt2
+
+
+ancestral
+descendente 
+
+tipos de HERANÇA
+herança de implementação
+    pobre
+
+herança para diferença
+    rica {extends}
+
+
+[da classe mãe pra baixo é generalização
+de baixo pra cima é especialização]
+
+Classe abstrata:
+    Não pode ser instanciada só pode servir como mãe.
+
+Método abstrato:
+    Declarado, mas não implementado na mãe.
+
+Classe Final:
+    Não pode ser herdada por outra classe, obrigatoriamente folha (sem filhos | esteril)
+
+Método Final:
+    Não pode ser sobrescrito por uma subclasse, ele é sempre herdado.
+
+
+@Override
+
+metodo final não pode ser @Override.
+
+classe final não pode ter fiho logo se aluno fosse final, bolsista ja não estaria válida.

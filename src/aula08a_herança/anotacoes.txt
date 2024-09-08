@@ -1,0 +1,7 @@
+## INTRODUÇÃO HERANÇA
+
+
+02.png = a classe pessoa é mãe de todas as demais
+
+ou as demais classes herdam tudo de pessoa.
+
