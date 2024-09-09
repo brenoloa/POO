@@ -7,6 +7,11 @@ public abstract class Animal {
     
     
     
+    public Animal(double peso, int idade, int membros) {
+        this.peso = peso;
+        this.idade = idade;
+        this.membros = membros;
+    }
     public double getPeso() {
         return peso;
     }

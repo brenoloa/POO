@@ -3,27 +3,22 @@ import aula09a_polimorfismo.animais.ave.Ave;
 import aula09a_polimorfismo.animais.mamifero.Cachorro;
 import aula09a_polimorfismo.animais.mamifero.Canguru;
 import aula09a_polimorfismo.animais.mamifero.Mamifero;
+import aula09a_polimorfismo.animais.peixe.Goldfish;
 import aula09a_polimorfismo.animais.peixe.Peixe;
 import aula09a_polimorfismo.animais.reptil.Reptil;
 public class App {
     public static void main(String[] args) {
         
-        Peixe p1 = new Peixe();
-        Mamifero m1 = new Mamifero();
-        Reptil r1 = new Reptil();
-        Ave a1 = new Ave();
-        Canguru can1 = new Canguru();
-        Cachorro c1 = new Cachorro();
-        m1.setIdade(21);
-       
-        m1.alimentar();
-        r1.alimentar();
+
+        Goldfish g1 = new Goldfish(5.56, 3, 0, "Azul Claro");
+        //Goldfish g1 = new Goldfish();
+        Peixe p1 = new Peixe(4.56, 2, 0, "Amarelado");
+        
+        
+        p1.emitirSom();
+        g1.emitirSom();
         p1.alimentar();
-        a1.alimentar();
-        System.out.println();
-        c1.locomover();
-        m1.locomover();
-        can1.locomover();
+        g1.alimentar();
         /* 
        System.out.println(m1.getIdade());
        m1.emitirSom();
